@@ -6,11 +6,21 @@
   --text-hover-color: #e82127;
 }
 
+@font-face {
+  font-family: "D-Din EXP Regular";
+  src: url("./fonts/d-din.exp.ttf");
+}
+
+@font-face {
+  font-family: "D-Din EXP Bold";
+  src: url("./fonts/d-din.exp-bold.ttf");
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "DDINExpRegular", sans-serif;
+  font-family: "D-Din EXP Regular", sans-serif;
 }
 
 .showcase {
@@ -105,7 +115,7 @@
 .text a {
   display: inline-block;
   font-size: 1em;
-  font-family: "DDINExpRegular";
+  font-family: "D-Din EXP Regular", sans-serif;
   text-decoration: none;
   color: var(--white-color);
   padding: 10px 30px;
